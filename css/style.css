@@ -399,7 +399,6 @@ main .content {
   margin: 1rem;
   margin-top: 10rem;
   margin-left: 3rem;
-  background-color: white;
   padding: 3rem;
   border-radius: 2rem;
   padding-left: 15rem;
@@ -468,4 +467,32 @@ main .content {
 
 .main-list {
   margin-top: 3rem;
+}
+
+.post-main {
+  margin: 1rem;
+  width: 50vw;
+}
+
+.post-main .form-label {
+  width: 5rem;
+}
+
+.custom-button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid rgb(170, 204, 248);
+  background-color: rgb(211, 230, 255);
+  border-radius: 0.5rem;
+}
+
+.post-book {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid black;
+}
+
+.post-content {
+  width: 55rem;
+  background-color: green;
 }/*# sourceMappingURL=style.css.map */
