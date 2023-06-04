@@ -39,28 +39,36 @@
             </div>
 
 
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    사용감
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">상</a></li>
-                    <li><a class="dropdown-item" href="#">중</a></li>
-                    <li><a class="dropdown-item" href="#">하</a></li>
-                </ul>
+            <div class="col-md-3">
+                <label for="" class="form-label">사용감</label>
+                <select class="form-select" id="" aria-describedby="validationServer04Feedback" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>상</option>
+                    <option>중</option>
+                    <option>하</option>
+                </select>
             </div>
 
 
-            <div>물려주기/판매 선택, 판매 선택시 가격 입력</div>
+            <div>
+                <div class="form-label">분류</div>
+                <input type="radio" id="option1" name="A-options" value="option1" checked>
+                <label for="option1">판매</label>
+    
+                <input type="radio" id="option2" name="A-options" value="option2">
+                <label for="option2">물려주기</label>
+            </div>
 
 
-            <div class = "">거래 방법</div>
-            <input type="radio" id="option1" name="A-options" value="option1" checked>
-            <label for="option1">택배</label>
-            <br>
-            <input type="radio" id="option2" name="A-options" value="option2">
-            <label for="option2">직거래</label>
-            <br>
+
+            <div>
+                <div class = "form-label">거래 방법</div>
+                <input type="radio" id="option3" name="B-options" value="option3" checked>
+                <label for="option3">택배</label>
+                <br>
+                <input type="radio" id="option4" name="B-options" value="option4">
+                <label for="option4">직거래</label>
+            </div>
 
 
 
