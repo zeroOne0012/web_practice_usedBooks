@@ -14,9 +14,9 @@
     <a href="index.html"><h1 class = "title logo"><span>R</span><span>E</span><span>B</span><span>O</span><span>O</span><span>K</span></h1></a>
 
     <main class="post-main">
-        <div class="">게시글 제목 내용</div>
+        <div class="title">게시글 제목 내용</div>
 
-        <a class="btn custom-button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
             작성자 이름(click!)
         </a>
 
@@ -25,7 +25,7 @@
             
             <img class = "book-icon" src = "../img/ex.png">
             <div class = "content-info settings">
-                <div>창의적 숨쉬기(책 선택 완료시 선택시 표시)</div>
+                <div>창의적 숨쉬기</div>
                 <span>저자</span>
                 <span>출판사</span>
                 <span>출판 년도</span>
@@ -34,21 +34,52 @@
         </div>
 
 
-        <div class="">사용감:상/중/하?</div>
+        <div class="flex">
+            <div class="item">책 상태</div>
+            <div class="item detail">상</div>
+        </div>
+       
 
-        <div class = "">거래 방법: 택배/직거래</div>
+        <div class = "flex">
+            <div class = "item">거래 방법</div>
+            <div class="item detail">택배</div>
+        </div>
 
+        <img class = "post-photo" src = "../img/ex.png">(책 사진)
         <p class="post-content">
-            글 내용글 내용글 내용글 내용글 내용글 내용글 내용글 내용글 내용글 내용글 내용
+            글내용글내용글내용글내용글내용글내용글내용글내용글내용글내용글내용글내용글내용글내
+            용글내용글내용글내용글내용글내용글내용글내용글내용글내용글내용글내용글내용글내용글
         </p>
 
 
 
-        <button class="btn custom-button" type="submit"><a href="">삭제(글 주인이 열람시)</a></button>
-        <button class="btn custom-button" type="submit"><a href="post.html">수정(글 주인이 열람시)</a></button>
+
+        <button class="btn custom-button" type="submit"><a href="">쪽지 보내기</a></button>
+
+
+        <div class="item mt-5 top-border">리뷰 작성</div>
+        <textarea class = "review-text" style="overflow-y: scroll; resize: vertical;"></textarea>            
+        <button class="btn custom-button" type="submit"><a href="">등록</a></button>
+
+
+
+        <!-- example -->
+        <div class = "sold mt-3">
+            <div>
+                <div class = "date"> 2023-06-04</div>
+                <div>
+                    믿고 거래했습니다.<br>
+                    판매자가 재밌고 책이 친절해요
+                </div>
+            </div>
+            <div class = "right">
+                <div class = "state">별점: 5</div>
+            </div>
+        </div>
 
     </main>
 
+    
 
 
 

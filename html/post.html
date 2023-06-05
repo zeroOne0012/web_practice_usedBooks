@@ -17,20 +17,20 @@
         <form>
             <div class="col-md-10 register-input flex">
                 <label for="validationServer01" class="form-label">제목</label>
-                <input type="text" class="form-control rName" id="validationServer01" placeholder="title" required>
+                <input type="text" class="form-control" id="validationServer01" placeholder="title" required>
             </div>
 
             <div class="buttons">
                 <a class="btn custom-button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                     책 선택
                 </a>
-                <span class="btn custom-button">사진 첨부</span>
+
             </div>
 
             <div class = "content margin-top"> 
                 <img class = "book-icon" src = "../img/ex.png">
                 <div class = "content-info settings">
-                    <div>창의적 숨쉬기(책 선택 완료시 선택시 표시)</div>
+                    <div>창의적 숨쉬기(책 선택 완료시 표시)</div>
                     <span>저자</span>
                     <span>출판사</span>
                     <span>출판 년도</span>
@@ -38,10 +38,29 @@
                 </div>
             </div>
 
+            <div class = "flex item">
+                <div class="form-label">분류</div>
+                <input class="margin-top" type="radio" id="option1" name="A-options" value="option1" checked>
+                <label class="margin-right" for="option1">판매</label>
+    
+                <input class="margin-top" type="radio" id="option2" name="A-options" value="option2">
+                <label for="option2">물려주기</label>
+            </div>
 
-            <div class="col-md-3">
-                <label for="" class="form-label">사용감</label>
-                <select class="form-select" id="" aria-describedby="validationServer04Feedback" required>
+
+
+            <div class = "flex item">
+                <div class = "form-label">거래 방법</div>
+                <input class="margin-top" type="radio" id="option3" name="B-options" value="option3" checked>
+                <label class="margin-right" for="option3">택배</label>
+                
+                <input class="margin-top" type="radio" id="option4" name="B-options" value="option4">
+                <label for="option4">직거래</label>
+            </div>
+
+            <div class="flex item">
+                <label for="" class="form-label">책 상태</label>
+                <select class="form-select col-md-3" id="" aria-describedby="validationServer04Feedback" required>
                     <option selected disabled value="">Choose...</option>
                     <option>상</option>
                     <option>중</option>
@@ -50,36 +69,20 @@
             </div>
 
 
-            <div>
-                <div class="form-label">분류</div>
-                <input type="radio" id="option1" name="A-options" value="option1" checked>
-                <label for="option1">판매</label>
-    
-                <input type="radio" id="option2" name="A-options" value="option2">
-                <label for="option2">물려주기</label>
+
+
+
+
+            <div class="flex item">
+                <label class="form-label">내용 작성</label>
+                <textarea class = "post-text" style="overflow-y: scroll; resize: vertical;"></textarea>            
             </div>
 
-
-
-            <div>
-                <div class = "form-label">거래 방법</div>
-                <input type="radio" id="option3" name="B-options" value="option3" checked>
-                <label for="option3">택배</label>
-                <br>
-                <input type="radio" id="option4" name="B-options" value="option4">
-                <label for="option4">직거래</label>
-            </div>
-
-
-
-            <div class="flex">
-                <label class="form-label">글 내용</label>
-                <input type="text" class="form-control rPhone" placeholder="" required>
-            </div>
-
+            <span class="item">사진 첨부</span>
+            <input class = "" type="file" id="directory_upload">
 
             <div class="">
-            <button class="btn custom-button" type="submit"><a href="post-view.html">등록</a></button>
+            <button class="btn custom-button" type="submit"><a href="post_view.html">등록</a></button>
             </div>
         </form>
     </main>
