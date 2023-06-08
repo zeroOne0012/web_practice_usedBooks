@@ -103,6 +103,31 @@ main .content {
   margin: 1rem;
 }
 
+.detail-text{
+  float: left;
+
+}
+
+.detail-img{
+  margin-left: 1rem;
+  display: flex;
+
+}
+
+
+.bell-image{
+  width: 90%;
+  height: 60%;
+  margin-top: 1rem;
+}
+
+.mail-image{
+  width: 90%;
+  height: 80%;
+  margin-top: 0.5rem;
+
+}
+
 .post-button {
   border-radius: 1rem;
   border: rgb(211, 230, 255) 0.3rem solid;
@@ -129,7 +154,20 @@ main .content {
 .invisible {
   display: none;
 }
+.alarm-list{
+  margin: 0.4rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(170, 204, 248);
+  width: 50rem;
+}
 
+.alarm-detail{
+  background-color: rgb(211, 230, 255);
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+}
 .chat-list {
   margin: 0.4rem;
   padding: 0.2rem;
@@ -143,6 +181,74 @@ main .content {
   border-radius: 0.5rem;
   padding: 0.3rem;
   font-size: 0.9rem;
+}
+
+.chatting-list {
+  margin: 0.4rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 239, 146);
+  width: 50rem;
+}
+
+.chatting-detail {
+  background-color: rgb(255, 255, 229);
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.mail_each-memberID{
+  margin-top: 1rem;
+  margin-left: 30rem;
+}
+
+.lastest-chatRecord{
+  float: right;
+}
+
+.lastest-alarmRecord{
+  float: right;
+}
+
+.state-read{
+  position: relative;
+  color:rgb(47, 149, 85);
+  bottom: 1.5rem;
+  left: 7rem;
+}
+
+.state-unread{
+  position: relative;
+  color:rgb(255, 0, 0);
+  bottom: 1.5rem;
+  left: 7rem;
+}
+
+.alarm-checked{
+  position: relative;
+  color:rgb(47, 149, 85);
+  bottom: 1.5rem;
+  left: 9rem;
+}
+
+.alarm-unchecked{
+  position: relative;
+  color:rgb(255, 0, 0);
+  bottom: 1.5rem;
+  left: 9rem;
+}
+
+.mail_each-head{
+  display: flex;
+}
+
+.mail_each-body{
+  margin-left: 27%;
+  width: 50vw;
+  border: rgb(0, 0, 0) solid 3px;
+  background-color: rgb(255, 255, 229);
+  padding: 1rem;
 }
 
 .chat-sent {
@@ -180,6 +286,7 @@ main .content {
   color: gray;
   font-size: 0.8rem;
 }
+
 
 .login-main {
   border: rgb(240, 216, 255) solid 3.5px;
@@ -408,6 +515,7 @@ main .content {
 .sub-title {
   border-left: rgb(36, 0, 165) solid 2px;
   padding-left: 1rem;
+  margin-left: 20px;
   margin-bottom: 1.5rem;
 }
 
