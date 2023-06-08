@@ -469,3 +469,174 @@ main .content {
 .main-list {
   margin-top: 3rem;
 }/*# sourceMappingURL=style.css.map */
+
+.trophy-icon{
+  margin: 0.3rem;
+  width: auto;
+  height: 5rem;
+}
+
+.trueGod-group{
+  display: flex;
+}
+
+.godAgent-group{
+  display: flex;
+}
+
+.king-group{
+  display: flex;
+}
+
+.noble-group{
+  display: flex;
+}
+
+.common-group{
+  display: flex;
+}
+
+.slave-group{
+  display: flex;
+}
+
+.beast-group{
+  display: flex;
+}
+
+.trueGod-title{
+  margin: 1.5rem;
+  color:rgb(76, 0, 138);
+  font-family: 'Pacifico', cursive;
+}
+
+.trueGod-member{
+  margin: 1.5rem;
+  background-color: rgb(76, 0, 138);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.godAgent-title{
+  margin: 1.5rem;
+  color:rgb(0, 0, 128);
+  font-family: 'Pacifico', cursive;
+}
+
+.godAgent-member{
+  margin: 1.5rem;
+  background-color: rgb(0, 0, 128);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.king-title{
+  margin: 1.5rem;
+  color:rgb(0, 0, 255);
+  font-family: 'Pacifico', cursive;
+}
+
+.king-member{
+  margin: 1.5rem;
+  background-color: rgb(0, 0, 255);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.noble-title{
+  margin: 1.5rem;
+  color:rgb(0, 255, 0);
+  font-family: 'Pacifico', cursive;
+}
+
+.noble-member{
+  margin: 1.5rem;
+  background-color: rgb(0, 255, 0);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.common-title{
+  margin: 1.5rem;
+  color:rgb(255, 255, 0);
+  font-family: 'Pacifico', cursive;
+}
+
+.common-member{
+  margin: 1.5rem;
+  background-color: rgb(255, 255, 0);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.slave-title{
+  margin: 1.5rem;
+  color:rgb(255, 165, 0);
+  font-family: 'Pacifico', cursive;
+}
+
+.slave-member{
+  margin: 1.5rem;
+  background-color: rgb(255, 165, 0);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.beast-title{
+  margin: 1.5rem;
+  color:rgb(255, 0, 0);
+  font-family: 'Pacifico', cursive;
+}
+
+.beast-member{
+  margin: 1.5rem;
+  background-color: rgb(255, 0, 0);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.memberTier-instruction{
+  top: 0;
+  right: 0;
+  position: fixed;
+  float: right;
+  border-radius: 1rem;
+  border: rgb(170, 204, 248) 0.4rem solid;
+  background-color: rgb(211, 230, 255);
+  width: 15rem;
+  height: 18rem;
+  margin: 1rem;
+}
+
+th{
+  background-color:rgb(170, 204, 248);
+  text-align: center;
+  border: 1px solid black;
+}
+
+table, td{
+  text-align: center;
+  border: 1px solid black;
+}
+
+.memberTierList-title{
+  display: inline-block;
+}
+
+.memberTierList-entire{
+  margin-left: 30%;
+}
