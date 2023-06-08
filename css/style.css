@@ -549,6 +549,11 @@ main .content {
   color: rgb(255, 255, 255);
 }
 
+.king-image{
+  width: 70%;
+  height: 90%;
+}
+
 .noble-title{
   margin: 1.5rem;
   color:rgb(0, 255, 0);
@@ -562,6 +567,11 @@ main .content {
   border-radius: 1rem;
   margin-bottom: 0.5rem;
   color: rgb(255, 255, 255);
+}
+
+.noble-image{
+  width: 50%;
+  height: 90%;
 }
 
 .common-title{
