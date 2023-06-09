@@ -211,9 +211,19 @@ main .content {
   font-size: 0.9rem;
 }
 
-.mail_each-memberID{
-  margin-top: 1rem;
-  margin-left: 30rem;
+.mail_each-head{
+  margin-left: 27%;
+  width: 50vw;
+  border: rgb(0, 0, 0) solid 3px;
+  background-color: rgb(147, 240, 194);
+  padding: 1rem;
+  text-align: center;
+}
+.mail_each-head .backward-icon{
+  width: 10px;
+  height: auto;
+  float: left;
+  margin-top: 5px;
 }
 
 .lastest-chatRecord{
@@ -252,9 +262,6 @@ main .content {
   left: 9rem;
 }
 
-.mail_each-head{
-  display: flex;
-}
 
 .mail_each-body{
   margin-left: 27%;
@@ -829,7 +836,7 @@ main .content {
   color: rgb(255, 255, 255);
 }
 
-.memberTier-instruction{
+.memberTier-instruction-box{
   top: 0;
   right: 0;
   position: fixed;
@@ -839,7 +846,12 @@ main .content {
   background-color: rgb(211, 230, 255);
   width: 15rem;
   height: 18rem;
-  margin: 1rem;
+  margin-left: 1rem;
+}
+
+.memberTier-instruction-box .memberTier-instruction{
+  margin-top: 10px;
+  margin-left: 25px;
 }
 
 th{

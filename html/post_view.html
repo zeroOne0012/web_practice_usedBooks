@@ -1,11 +1,17 @@
 <?php
     $con = mysqli_connect("34.64.209.230", "user123", "user123", "developDB");
-    $sql="SELECT *FROM book";
+    $sql="select* from post join book on post.book_ISBN=book.ISBN where book.ISBN=9791162242025";
 
     $result=$con->query($sql);
 
     if(isset($result)&&$result->num_rows>0){
         while($row=$result->fetch_assoc()){
+            $post_content=$row["post_content"];
+            $seller_id=$row["seller_id"];
+            $book_quality=$row["book_quality"];
+            $sales_method=$row["sales_method"];
+            $shipping=$row["shipping_method"];
+            $book_img=$row["image"];
             $ISBN=$row["ISBN"];
             $title=$row["title"];
             $author=$row["author"];
@@ -35,16 +41,16 @@
     <a href="index.html"><h1 class = "title logo"><span>R</span><span>E</span><span>B</span><span>O</span><span>O</span><span>K</span></h1></a>
 
     <main class="post-main">
-        <div class="title">게시글 제목 내용</div>
+        <div class="title"><?php echo $post_content;?></div>
 
         <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-            작성자 이름(click!)
+            <?php echo $seller_id;?>(click!)
         </a>
 
 
         <div class = "content margin-top"> 
             
-            <img class = "book-icon" src = "../img/ex.png">
+            <img class = "book-icon" src = <?php echo $book_img;?>>
             <div class = "content-info settings">
                 <div><?php echo $title;?></div>
                 <span><?php echo $author;?></span>
@@ -57,16 +63,21 @@
 
         <div class="flex">
             <div class="item">책 상태</div>
-            <div class="item detail">상</div>
+            <div class="item detail"><?php echo $book_quality;?></div>
+        </div>
+
+        <div class="flex">
+            <div class="item">판매/물려주기</div>
+            <div class="item detail"><?php echo $sales_method;?></div>
         </div>
        
 
         <div class = "flex">
             <div class = "item">거래 방법</div>
-            <div class="item detail">택배</div>
+            <div class="item detail"><?php echo $shipping;?></div>
         </div>
 
-        <img class = "post-photo" src = "../img/ex.png">(책 사진)
+        <img class = "post-photo" src = <?php echo $book_img;?>>
         <p class="post-content">
             <?php echo $description;?>
         </p>
